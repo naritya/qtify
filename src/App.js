@@ -1,16 +1,16 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import './App.css';
 import Navbar from "./Navbar";
 import {Outlet} from "react-router-dom";
-
+import {fetchTopAlbums, fetchNewAlbums, fetchSongs, fetchFilters} from "./api.js"
 
 const App=()=>{
   const [data, setData]= useState({});
   
   const generateData=(key, source)=>{
     source().then((data)=>{
-      setData(prevState)=>{
-        return{...prevData, [key]: data};
+      setData((prevState)=>{
+        return({...prevState, [key]: data});
       });
     });
   };
@@ -22,7 +22,7 @@ useEffect(()=>{
   generateData("songs", fetchFilters);
 }, []);
 
-const {topAlbums=[], newAlbums=[], songs=[]}= data;
+const {topAlbums=[], newAlbums=[], songs=[], genres=[]}= data;
 
   return(
   <>
@@ -32,6 +32,7 @@ const {topAlbums=[], newAlbums=[], songs=[]}= data;
 
   );
 }
+
 
 
 export default App;

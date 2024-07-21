@@ -1,0 +1,48 @@
+import axios from "axios";
+
+export const BACKEND_POINT= "http://localhost:8081";
+
+export const fetchTopAlbums= async ()=>{
+    try{ const response= await axios.get(`${BACKEND_POINT}/albums/top`);
+    return response.data;
+}
+catch(e){
+    console.error(e);
+}
+}
+
+export const fetchNewAlbums= async()=>{
+    try{
+    const response= await axios.get(`${BACKEND_POINT}/albums/new`);
+    return response.data;
+
+    }
+    catch(e){
+        console.error(e);
+    }
+}
+
+
+export const fetchSongs= async()=>{
+    try{
+    const response= await axios.get(`${BACKEND_POINT}/songs`);
+    return response.data;
+
+    }
+    catch(e){
+        console.error(e);
+    }
+}
+
+export const fetchFilters= async()=>{
+    try{
+    const response= await axios.get(`${BACKEND_POINT}/genres`);
+    return response.data;
+
+    }
+    catch(e){
+        console.error(e);
+    }
+}
+
+

@@ -3,7 +3,7 @@ import "./Search.css";
 
 const Search=()=>{
     return(<>
-    <input type="text"></input>
+    <input type="text"/>
     </>);
 }
 

@@ -5,7 +5,6 @@ const Hero=({text, image})=>{
     return(<div className="Hero">
     <div>
     <h1>{text}</h1>
-   
     </div>
 
     <div>
