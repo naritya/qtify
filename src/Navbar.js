@@ -11,7 +11,9 @@ const Navbar=()=>{
            
             <Logo />
             <Search />
-            <button>Give Feedback</button>
+            <div style={{"margin-right": "2rem"}}>
+            <button style={{"background-color": "black", "color":"white", "margin": "5px"}}>Give Feedback</button>
+            </div>
         </nav>
     
     );
