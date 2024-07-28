@@ -9,16 +9,16 @@ import Button from "./Button";
 const Navbar=()=>{
     return(
     
-        <nav className="Navbar" style={{fontFamily: 'Poppins, sans-serif'}}>
+        <nav className="Navbar" >
            <Link to="/">
            <Logo />
            </Link>
             <Search />
-            <Button />
+            <Button/>
            
         </nav>
     
     );
 }
 
-export default Navbar;
+export default Navbar; 

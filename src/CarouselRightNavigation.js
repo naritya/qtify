@@ -1,5 +1,6 @@
 import React, {useEffect, useState, useSwiper} from 'react';
 import {ReactComponent as RightArrow} from "./assets/RightArrow.svg";
+import {Swiper, SwiperSlide} from "swiper/react";
 
 export const CarouselRightNavigation = () => {
 const swiper= useSwiper();
