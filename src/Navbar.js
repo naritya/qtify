@@ -12,7 +12,7 @@ const Navbar=()=>{
             <Logo />
             <Search />
             <div style={{"margin-right": "2rem"}}>
-            <button style={{"background-color": "black", "color":"white", "margin": "5px"}}>Give Feedback</button>
+            <button style={{"background-color": "black", "color":"white", borderRadius:"2rem" }}>Give Feedback</button>
             </div>
         </nav>
     
