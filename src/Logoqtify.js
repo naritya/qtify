@@ -1,5 +1,5 @@
 import React from "react";
-import LogoImage from "./assets/logoimage.png";
+import LogoImage from "./assets/logoimagenew.png";
 import "./Navbar.css"
 
 const Logo=()=>{
