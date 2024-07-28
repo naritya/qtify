@@ -9,7 +9,7 @@ export default function Navbar(){
     return(
         <>
             <nav className="navbar">
-                <div className="logoDiv"><img  src={LogoImage} alt="logo" width={67}/></div>
+                <div className="logoDiv"><img  src={LogoImage} alt="logo" width={80}/></div>
                  <Search search={"Search a song of your choice"}/>
                 <Button children="Give Feedback"/>
             </nav>
