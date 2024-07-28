@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-.Navbar{
-    /* font-family: 'Poppins', sans-serif; */
+.navbar {
+    background-color: green;
     display: flex;
-   justify-content: space-between; 
-   align-items: center;
-   height: 74px;
-   width: 100%;
-   background-color: #34c94b;
-   /* padding: 0px 32px; */
-   
-   
-}
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 74px;
+    padding: 0px 32px;
+  }
+
+  .logoDiv{
+    display: flex;
+    margin: 14px;
+  }

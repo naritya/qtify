@@ -1,25 +1,18 @@
 import React from "react";
-import "./Navbar.css"; 
-import Logo from "./Logoqtify" ;
-import {Link} from "react-router-dom";
-import Search from "./Search";
 import Button from "./Button";
+import Search from "./Search";
+import './Navbar.css';
+import LogoImage from "./assets/logoqtify.png"
 
 
-const Navbar=()=>{
+export default function Navbar(){
     return(
-       
-        <nav className="Navbar" >
-           <Link to="/">
-           <Logo />
-           </Link>
-            <Search />
-            <Button/>
-           
-        </nav>
-    
-    
-    );
+        <>
+            <nav className="navbar">
+                <div className="logoDiv"><img  src={LogoImage} alt="logo" width={67}/></div>
+                 <Search search={"Search a song of your choice"}/>
+                <Button children="Give Feedback"/>
+            </nav>
+        </>
+    )
 }
-
-export default Navbar; 
