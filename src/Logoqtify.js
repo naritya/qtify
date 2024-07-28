@@ -1,11 +1,12 @@
 import React from "react";
 import LogoImage from "./assets/logoimage.png";
+import "./Navbar.css"
 
 const Logo=()=>{
     return(
-    <>
-<img src={LogoImage}  width={67} alt="logo" style={{margin:"1.2rem", display:"block", boxSizing:"border-box", alignItems:"center", justifyContent:"center"}}/>
-</>
+
+<div className="logoDiv"><img  src={LogoImage} alt="logo" width={67}/></div>
+
 );
 
 }
