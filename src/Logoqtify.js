@@ -4,7 +4,7 @@ import LogoImage from "./assets/logoimage.png";
 const Logo=()=>{
     return(
     <>
-<img src={LogoImage} width={67} alt="Logo" style={{margin:"3rem"}}/>
+<img src={LogoImage} width={67} alt="Logo" style={{margin:"3rem", display:"flex", alignItems:"center"}}/>
 </>
 );
 

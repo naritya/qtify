@@ -2,17 +2,18 @@ import React from "react";
 import "./Navbar.css"; 
 import Logo from "./Logoqtify" ;
 import {Link} from "react-router-dom";
-import Search from "./Search"
+import Search from "./Search";
+import Button from "./Button";
 
 const Navbar=()=>{
     return(
     
-        <nav className="Navbar">
+        <nav className="Navbar" style={{fontFamily:"Poppins"}}>
            
             <Logo />
             <Search />
             <div style={{"margin-right": "2rem"}}>
-            <button style={{"background-color": "black", "color":"white", borderRadius:"2rem" }}>Give Feedback</button>
+            <Button />
             </div>
         </nav>
     
