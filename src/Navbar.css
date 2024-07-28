@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 .Navbar{
+    font-family: 'Poppins', sans-serif;
     display: flex;
    justify-content: space-between; 
    align-items: center;
@@ -8,5 +9,5 @@
    width: 100vw;
    background-color: lightgreen;
    padding: 0px 32px;
-   font-family: "Poppins" ;
+   
 }
