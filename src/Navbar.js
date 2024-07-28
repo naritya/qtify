@@ -8,7 +8,7 @@ import Button from "./Button";
 
 const Navbar=()=>{
     return(
-    
+       <div>
         <nav className="Navbar" >
            <Link to="/">
            <Logo />
@@ -17,6 +17,7 @@ const Navbar=()=>{
             <Button/>
            
         </nav>
+        </div>
     
     );
 }
