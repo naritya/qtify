@@ -5,9 +5,10 @@
     display: flex;
    justify-content: space-between; 
    align-items: center;
-   height: 8vh;
+   height: 74px;
    width: 100%;
-   background-color: #90ee90;
+   background-color: #34c94b;
    /* padding: 0px 32px; */
+   
    
 }
