@@ -9,7 +9,7 @@ import Button from "./Button";
 const Navbar=()=>{
     return(
     
-        <nav className="Navbar" style={{fontFamily: 'Poppins'}}>
+        <nav className="Navbar" style={{fontFamily: 'Poppins, sans-serif'}}>
            <Link to="/">
            <Logo />
            </Link>
