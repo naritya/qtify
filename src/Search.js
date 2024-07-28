@@ -6,8 +6,8 @@ const Search=()=>{
     return(
     <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
         {/* <label htmlFor="search" className="search-label"></label> */}
-      <input  placeholder="Search a album of your choice" style={{width:"24rem", height:"1.4rem", margin:"0px"}} />
-      <button style={{margin:"0px", border:"1px solid black", height:"100%", cursor:"pointer"}}>
+      <input  placeholder="Search a album of your choice" style={{width:"30rem", height:"2.5rem", margin:"0px", borderRadius:"0.4rem 0 0 0.4rem"}} />
+      <button style={{marginLeft:"0px", height:"2.85rem", cursor:"pointer", borderRadius:"0 0.4rem 0.4rem 0"}}>
         <SearchIcon />
       </button>
     </div>);
