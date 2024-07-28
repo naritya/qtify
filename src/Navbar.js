@@ -5,15 +5,16 @@ import {Link} from "react-router-dom";
 import Search from "./Search";
 import Button from "./Button";
 
+
 const Navbar=()=>{
     return(
     
-        <nav className="Navbar" style={{fontStyle: 'Poppins'}}>
-           
-            <Logo />
+        <nav className="Navbar" style={{fontFamily: 'Poppins'}}>
+           <Link to="/">
+           <Logo />
+           </Link>
             <Search />
-           
-            <Button  />
+            <Button />
            
         </nav>
     

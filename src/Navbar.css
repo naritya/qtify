@@ -2,7 +2,8 @@
     display: flex;
    justify-content: space-between; 
    align-items: center;
-   height: 10vh;
-   width:100vw;
+   height: 8vh;
+   width: 100vw;
    background-color: lightgreen;
+   padding: 0px 32px;
 }
