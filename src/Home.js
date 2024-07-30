@@ -9,7 +9,7 @@ const Home=()=>{
     const{data}= useOutletContext();
     const {newAlbums, topAlbums, songs} = data;
     return(<>
-    <Hero text="100 thousand songs" image={HeadphoneImage} />
+    <Hero text={"100 thousand songs ad-free"} image={HeadphoneImage} />
     <div className="wrapper">
     <Section title="Top Albums" data={topAlbums} type="album"/>
     <Section title="New Albums" data={newAlbums} type="album"/>
