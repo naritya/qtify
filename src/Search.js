@@ -5,7 +5,7 @@ import "./Search.css"
 const Search = ({ search }) => {
   return (
     <form className="wrapper">
-      <input className="search" placeholder={search}></input>
+      <input className="search" placeholder={search} />
       <button className="searchButton" type="submit">
         <SearchIcon />
       </button>
