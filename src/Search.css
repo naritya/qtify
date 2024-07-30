@@ -1,23 +1,24 @@
 .wrapper {
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 48px;
+    height: 10vh;
   }
   .search{
       width: 500px;
-      height: 40%;
-      border-radius: 8px;
+      height: 80%;
+      border-radius: 8px 0px 0px 8px;
       border: 1px solid black;
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px;
-      padding: 14px 20px;
+      /* padding: 14px 20px; */
   
   }
   .searchButton{
       border-radius: 0px 8px 8px 0px;
-      border-left: none;
-      border: 1px solid black;
+      border-left: none ;
+      border: 1px solid noneblack;
       cursor: pointer;
-      height: 100%;
-      padding: 14px 20px;
+      height: 90%;
+      /* padding: 14px 20px; */
   }

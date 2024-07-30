@@ -27,10 +27,10 @@ const {topAlbums=[], newAlbums=[], songs=[], genres=[]}= data;
 
   return(
   <>
-  <StyledEngineProvider injectFirst>
+  {/* <StyledEngineProvider injectFirst> */}
   <Navbar/>
  <Outlet context={{data: {topAlbums, newAlbums, songs}}}/>
- </StyledEngineProvider>
+ {/* </StyledEngineProvider> */}
   </>
 
   );
