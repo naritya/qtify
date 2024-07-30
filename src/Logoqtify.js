@@ -5,7 +5,7 @@ import "./Navbar.css"
 const Logo=()=>{
     return(
 
-<div className="logoDiv"><img  src={LogoImage} alt="logo" width={67} margin={1}/></div>
+<div className="logoDiv"><img  src={LogoImage} alt="logo" width={67} margin-left={2}/></div>
 
 );
 
