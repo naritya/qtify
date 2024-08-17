@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BACKEND_POINT= "http://localhost:8081";
+export const BACKEND_POINT= "https://qtify-backend-labs.crio.do";
 
 export const fetchTopAlbums= async ()=>{
     try{ const response= await axios.get(`${BACKEND_POINT}/albums/top`);

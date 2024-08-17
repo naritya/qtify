@@ -8,6 +8,8 @@ const Search = ({ search }) => {
       <input className="search" placeholder={search}></input>
       <button className="searchButton" type="submit">
         <SearchIcon />
+    
+        
       </button>
     </form>
   );
